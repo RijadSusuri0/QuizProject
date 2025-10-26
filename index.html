@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz</h1>
+        <div class="progress"><span id="progressText">0 / 20</span>
+            <div class="progress-bar"><div class="fill" id="progressFill"></div></div>
+        </div>
+
+        <div class="question" id="question">Question text</div>
+        <ul class="options" id="options"></ul>
+
+        <div class="controls">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <div id="result" style="display:none;margin-top:16px;"></div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
+
+
